@@ -1,5 +1,5 @@
 # CoIN 
-This repository is the official implementation of our ACL 2024 Findings paper [Contrastive Instruction Tuning](https://arxiv.org/abs/2402.11138).
+This repository is the official implementation of our ACL'24 Findings paper [Contrastive Instruction Tuning](https://arxiv.org/abs/2402.11138).
 
 ## Installation
 ### Dependency
@@ -62,10 +62,10 @@ python promptbench/postprocessing.py --output_dir "YOUR_OUTPUT_DIR"
 
 ## Citation
 ```
-@article{yan2024contrastive,
+@inproceedings{yan2024contrastive,
   title={Contrastive Instruction Tuning},
-  author={Yan, Tianyi and Wang, Fei and Huang, James Y and Zhou, Wenxuan and Yin, Fan and Galstyan, Aram and Yin, Wenpeng and Chen, Muhao},
-  journal={arXiv preprint arXiv:2402.11138},
+  author={Yan, Lorena Tianyi and Wang, Fei and Huang, James Y and Zhou, Wenxuan and Yin, Fan and Galstyan, Aram and Yin, Wenpeng and Chen, Muhao},
+  booktitle={ACL - Findings},
   year={2024}
 }
 ```
